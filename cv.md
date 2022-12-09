@@ -14,11 +14,11 @@ _Hello! I am Alexandr Minchenko. I want to become a web developer. I really like
 __C#__                  beginer  
 __Windows__             advanced user
 ============================================
-## Education:
+## EDUCATION
 =============================================
  BELARUSIAN-RUSSIAN UNIVERSITY, engineer
 =============================================
-##  CODE EXAEXAMPLE
+##  CODE EXAMPLE
 ============================================
 ```
 <!DOCTYPE HTML>
