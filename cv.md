@@ -10,3 +10,5 @@ _Hello! I am Alexandr Minchenko. I want to become a web developer. I really like
 ## SKILLS
 __C#__                  beginer  
 __Windows__             advanced user
+
+
