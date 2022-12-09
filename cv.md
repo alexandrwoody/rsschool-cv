@@ -11,8 +11,8 @@
 _Hello! I am Alexandr Minchenko. I want to become a web developer. I really like this profession and I am ready to learn a lot to become one. I like to learn something new and constantly develop._
 
 ## SKILLS
-__C#__                  beginer  
-__Windows__             advanced user
+__C#__    :              beginer  
+__Windows__ :            advanced user
 
 ## EDUCATION
 
