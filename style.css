@@ -35,11 +35,12 @@ html,
 body {
 	height: 100%;
 	line-height: 1;
-	background: #FFFFFF;
+	
 	font-size: 14px;
-	color: #545454;
+	
 	font-weight: 400;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Sen', sans-serif;
+	color: white;
 }
 
 .wrapper {
@@ -53,11 +54,16 @@ body {
 	margin: 0px auto;
 
 }
+
 .header {
-    height: 70px;
-    background: #ADD8E6;
-    font-size: x-large;
+    height: 814px;
+	width: 100%;
+    
+    background: linear-gradient(to right, #000000 50%, #181823 50%);
+  
+   
 }
+
 
 .nav {
    
@@ -66,7 +72,7 @@ body {
     
 }
 .menu-list {
-    height: 70px;
+    height: 88px;
     display:flex;
     justify-content: space-around;
      align-items: center;
@@ -74,7 +80,50 @@ body {
    
   
 }
-.menu-item {
+.menu-item:not(:last-child) {
+	margin: 0px 40px 0px 0px;
+	
 }
 .menu-link {
+	color:inherit ;
+	font-size: 15px;
+}
+.header-img{
+	width: 720px;
+	height: 650px;
+	object-fit: cover;
+}
+.header-content{
+	
+
+	
+	
+	
+}
+.header-top{
+	height: 88px;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.header-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-tittle{
+font-weight: bold;
+color: white;
+font-size: 35px;
+}
+.about-me {
+	width: 700px;
+	
+}
+.about-me-tittle{
+	font-size: 70px;
+}
+.about-me-subtittle{
+	font-size: 18px;
 }
