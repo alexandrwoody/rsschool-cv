@@ -117,7 +117,7 @@ font-size: 35px;
 	
 }
 .about-me-tittle{
-	font-size: 55px;
+	font-size: 60px;
 }
 .about-me-subtittle{
 	margin-top: 20px;
@@ -211,6 +211,7 @@ padding-bottom: 30px;
 
 }
 .code-example{
+	padding-top: 20px;
 	color: #000000;
 	
 	background: #FFF3E4;
@@ -343,19 +344,19 @@ padding-bottom: 30px;
   background-size: 100% 100%;
 }
 .social-icons .social-icon-gmail::before {
-  background-image: url("ico/gmail.png");
+  background-image: url("./ico/gmail.png");
 }
 .social-icons .social-icon-discord::before {
-  background-image: url("ico/discord.png");
+  background-image: url("./ico/discord.png");
 }
 .social-icons .social-icon-vk::before {
-  background-image: url("ico/vk.png");
+  background-image: url("./ico/vk.png");
 }
 .social-icons .social-icon-telegram::before {
-  background-image: url("ico/telegram.png");
+  background-image: url("./ico/telegram.png");
 }
 .social-icons .social-icon-github::before {
-  background-image: url("ico/icons8-github-50.png");
+  background-image: url("./ico/icons8-github-50.png");
 }
 .footer-bottom a{
 	display: block;
