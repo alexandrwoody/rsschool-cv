@@ -67,7 +67,7 @@
                 <img src="/img/iam2.jpg" alt="myphoto" class="header-img">
                 <div class="about-me">
                     <h1 class="about-me-tittle">
-                        Hello I am Alexandr Minchenko. A frontend developer from Belarus.
+                        Hello I am Alexandr Minchenko.<br> A frontend developer from Belarus.
                     </h1>
                     <p class="about-me-subtittle">
                         I want to become a frontend developer. I really like this profession and
@@ -78,6 +78,140 @@
         </div>
 
     </header>
+    <main class="main">
+        <section class="skills _container">
+            <h2 class="skills-tittle">Skills</h2>
+            <div class="skillbars">
+                <div class="skill">
+                    <p class="skill-name">HTML</p>
+                    <div class="progressbar">
+                        <span style="width: 30%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p class="skill-name">CSS </p>
+                    <div class="progressbar orange">
+                        <span style="width: 38%"></span>
+                    </div>
+                </div class="skill">
+                <div class="skill">
+                    <p class="skill-name">Javascript </p>
+                    <div class="progressbar red">
+                        <span style="width: 45%"></span>
+                      </div>
+                </div class="skill">
+        </section>
+<section class="code-example">
+   <div class="my-code _container">
+    <h2 class="code-example-tiitle">
+     Code example
+    </h2>
+    <p class="code-example-subtittle">
+       
+    </p>
+   
+       <pre>
+         <code class="code">
+function mergeArrays(arr1, arr2) {
+    let arr=[];
+    arr=arr.concat(arr1,arr2);
+    arr=arr.filter((element, index) => {
+        return arr.indexOf(element) === index;
+    }).sort( (a, b) => a - b );
+    return arr
+    }            
+           
+         </code>
+       </pre>
+   
+   </div>
+</section>
+<section class="education-languages _container ">
+    <div class="education">
+       
+        <h2 class="education-tittle">
+Education
+        </h2>
+        <p class="education-subtittle">
+            <ul class="education-list">
+                <li class="education-item">
+                    2002-2006-  Mogilev State Polytechnic College(Electrician)
+                    
+                </li>
+                <li class="education-item">
+                    2006-2013-  BELARUSIAN-RUSSIAN UNIVERSITY(
+                        Engineer)
+                    
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div class="languages">
+        <h2 class="education-tittle">
+            Languages
+                    </h2>
+                    <p class="education-subtittle">
+                        <ul class="education-list">
+                            <li class="education-item">
+                                Russian-  Native language.
+                                
+                            </li>
+                            <li class="education-item">
+                                English-  My level of English is A2.
+                                
+                            </li>
+                        </ul>
+                    </p>
+    </div>
+
+
+</section>
+<section class="projects _container">
+ <h2 class="project-tittle">
+    Projects
+ </h2> 
+<div class="my_projects">
+    <div class="my-project">
+    <img src="img/shelter2.jpg" alt="project1" class="project-img">
+    <p class="project-subtittle"><a href="" class="project-link">Pet shelter website</a></p>
+    </div>
+   
+    <div class="my-project">
+        <img src="/img/cssbayan2.jpg" alt="project2" class="project-img">
+        <p class="project-subtittle"><a href="" class="project-link">Cssbayan</a></p>
+    </div>
+</div>
+
+
+</section>
+    </main>
+    <footer class="footer">
+<div class="footer-content _container">
+    <h2 class="contacts-tittle">
+        Contacts
+    </h2>
+    <div class="social">
+        <ul class="social-icons">
+            <li><a class="social-icon-gmail" href="#" title="..." target="_blank" rel="noopener"></a></li>
+            <li><a class="social-icon-discord" href="#" title="..." target="_blank" rel="noopener"></a></li>
+            <li><a class="social-icon-vk" href="#" title="..." target="_blank" rel="noopener"></a></li>
+            <li><a class="social-icon-telegram" href="#" title="..." target="_blank" rel="noopener"></a></li>
+            
+          </ul>
+    </div>
+</div>
+<div class="footer-bottom _container">
+    <a class="github-link" href="https://github.com/alexandrwoody">
+        <img src="/ico/icons8-github-50.png" alt="gihub" class="github">
+    </a>
+    <p class="year">
+2023
+    </p>
+    <a class="github-link" href="https://rs.school/js/">
+        <img src="/ico/rs_school_js.svg" alt="rs-school" class="rs-school">
+    </a>
+</div>
+    </footer>
 </body>
 
 </html>
